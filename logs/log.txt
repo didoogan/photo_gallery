@@ -1,3 +1,13 @@
-2015-09-22 22:31:15 | $username  is loged in
-2015-09-22 22:46:35 | doogan is loged in
-2015-09-23 20:27:40 | Login doogan logged in.
+2015-09-23 21:20:52 | Log cleared : by User Id 1
+2015-09-24 21:46:34 | Login : didoogan logged in.
+2015-09-25 14:12:21 | Login :  logged in.
+2015-09-25 14:12:35 | Login :  logged in.
+2015-09-25 14:12:51 | Login :  logged in.
+2015-09-25 14:13:22 | Login :  logged in.
+2015-09-25 14:13:41 | Login :  logged in.
+2015-09-25 14:16:18 | Login :  logged in.
+2015-09-25 14:18:55 | Login :  logged in.
+2015-09-25 18:37:57 | Login :  logged in.
+2015-09-25 18:50:20 | Login : doogan logged in.
+2015-09-25 18:57:27 | Login :  logged in.
+2015-09-25 19:00:33 | Login : doogan logged in.

@@ -8,8 +8,7 @@ if(!$session->is_logged_in()) {
 $logfile = SITE_ROOT . DS . 'logs' . DS . 'log.txt';
 if($_GET['clear'] == 'true') {
     file_put_contents($logfile, '');
-    log_action('Log cleared', 'by User Id
-    {$session->user_id}');
+    log_action('Log cleared', "by User Id {$session->user_id}");
     // redirect to the same page for avoiding
     // of giving URL logfile.php?clear=true
     redirect_to('logfile.php');

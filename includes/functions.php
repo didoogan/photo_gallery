@@ -42,7 +42,7 @@ function log_action($action, $message="") {
     $new = file_exists($logfile) ? false : true ;
   if( $handle = fopen($logfile, 'a')) {
     $timestamp = strftime("%Y-%m-%d %H:%M:%S", time());
-    $content ="{$timestamp} | {$action} {$message}\n";
+    $content ="{$timestamp} | {$action} : {$message}\n";
     fwrite($handle, $content);
     fclose($handle);
     if($new) {chmod($logfile, 0766);}
