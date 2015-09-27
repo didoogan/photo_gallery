@@ -1,23 +1,17 @@
 <?php
 require_once('../../includes/initialize.php');
 if (!$session->is_logged_in()) { redirect_to("login.php"); }
+include_layout_template('admin_header.php');
 ?>
 
-<?php
-$user = new User();
-$user->id = 5;
-$user->last_name = "Ura";
-$user->save();
+<?php include_layout_template('admin_header.php'); ?>
+<h2>Photo Upload</h2>
 
-/*$user = User::find_by_id(3);
-$user->first_name = "Jony D";
-$user->save();*/
+<form action="photo_upload.php" enctype="multipart/form-data"
+    method="POST">
 
-/*$user = User::find_by_id(3);
-$user->delete();*/
+</form>
 
-
-
-?>
 <?php include_layout_template('admin_footer.php'); ?>
+
 		
